@@ -37,7 +37,7 @@ export default async function IndexPage() {
           <>
             Crafted with ❤️ by{" "}
             <a
-              href="https://stack-auth.com"
+              href="/"
               target="_blank"
               rel="noreferrer"
               className="underline"
