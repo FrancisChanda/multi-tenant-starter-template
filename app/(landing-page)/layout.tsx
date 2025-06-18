@@ -9,12 +9,12 @@ export default function Layout(props: { children: React.ReactNode }) {
           { title: "Home", href: "/" },
           { title: "Features", href: "/#features" },
           { title: "Pricing", href: "/#pricing" },
-          { title: "Github", href: "https://github.com/stack-auth/stack-template", external: true },
+          { title: "API", href: "/"},
         ]}
       />
       <main className="flex-1">{props.children}</main>
       <Footer
-        builtBy="Stack Auth"
+        builtBy="Palladium Labs"
         builtByLink="https://stack-auth.com/"
         githubLink="https://github.com/stack-auth/stack-template"
         twitterLink="https://twitter.com/stack_auth"
