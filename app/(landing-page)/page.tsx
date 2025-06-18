@@ -27,7 +27,7 @@ export default async function IndexPage() {
       <Hero
         capsuleText="100% Open-source & Free"
         capsuleLink="https://stacktemplate.com"
-        title="A Multi-tenant Next.js Starter Template"
+        title="Welcome to Palladium"
         subtitle="Built for developers, by developers. Next.js + Shadcn UI + Stack Auth."
         primaryCtaText="Get Started"
         primaryCtaLink={stackServerApp.urls.signUp}
@@ -42,7 +42,7 @@ export default async function IndexPage() {
               rel="noreferrer"
               className="underline"
             >
-              Stack Auth
+              Palladium Labs
             </a>
           </>
         }
@@ -136,7 +136,7 @@ export default async function IndexPage() {
 
       <div id="pricing" />
       <PricingGrid
-        title="Pricing"
+        title="New-Pricing"
         subtitle="Flexible plans for every team."
         items={[
           {
