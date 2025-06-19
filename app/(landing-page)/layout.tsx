@@ -6,7 +6,7 @@ export default function Layout(props: { children: React.ReactNode }) {
     <div className="flex min-h-screen flex-col">
       <LandingPageHeader
         items={[
-          { title: "Home", href: "/" },
+          { title: "Home", href: "www.google.com" },
           { title: "Features", href: "/#features" },
           { title: "Pricing", href: "/#pricing" },
           { title: "API", href: "/"},
