@@ -25,10 +25,10 @@ export default async function IndexPage() {
   return (
     <>
       <Hero
-        capsuleText="100% Open-source & Free"
-        capsuleLink="https://stacktemplate.com"
-        title="Welcome to Palladium"
-        subtitle="Built for developers, by developers. Next.js + Shadcn UI + Stack Auth."
+        capsuleText="Palladium"
+        capsuleLink="/"
+        title="AI"
+        subtitle="Built for developers, by developers"
         primaryCtaText="Get Started"
         primaryCtaLink={stackServerApp.urls.signUp}
         secondaryCtaText="GitHub"
