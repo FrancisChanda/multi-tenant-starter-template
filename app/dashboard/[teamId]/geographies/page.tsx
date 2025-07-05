@@ -1,3 +1,4 @@
+
 import { ChartBarInteractive } from "@/app/dashboard/[teamId]/geographies/visitations";
 
 export default function Geographies() {

@@ -212,7 +212,7 @@ export function ChartBarInteractive() {
                 />
               }
             />
-            <Bar dataKey={activeChart} fill={`var(--color-${activeChart})`} />
+            <Bar dataKey={activeChart} fill={"currentColor"} />
           </BarChart>
         </ChartContainer>
       </CardContent>

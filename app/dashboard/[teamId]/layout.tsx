@@ -2,7 +2,7 @@
 
 import SidebarLayout, { SidebarItem } from "@/components/sidebar-layout";
 import { SelectedTeamSwitcher, useUser } from "@stackframe/stack";
-import { BadgePercent, BarChart4, Columns3, Globe, Locate, Settings2, ShoppingBag, ShoppingCart, Users } from "lucide-react";
+import { BadgePercent, BarChart4, Columns3, Globe, Locate, Settings2, ShoppingBag, ShoppingCart, Users,HandCoins,WalletCards } from "lucide-react";
 import { useParams, useRouter } from "next/navigation";
 
 const navigationItems: SidebarItem[] = [
@@ -17,23 +17,24 @@ const navigationItems: SidebarItem[] = [
     name: 'Management',
   },
   {
-    name: "Savings",
-    href: "/products",
-    icon: ShoppingBag,
-    type: "item",
-  },
-  {
-    name: "Loans",
-    href: "/products",
-    icon: ShoppingBag,
-    type: "item",
-  },
-  {
-    name: "People",
+    name: "Members",
     href: "/people",
     icon: Users,
     type: "item",
   },
+  {
+    name: "Savings",
+    href: "/savings",
+    icon: HandCoins,
+    type: "item",
+  },
+  {
+    name: "Loans",
+    href: "/loans",
+    icon: WalletCards,
+    type: "item",
+  },
+
   {
     name: "Segments",
     href: "/segments",
