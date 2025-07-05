@@ -17,7 +17,13 @@ const navigationItems: SidebarItem[] = [
     name: 'Management',
   },
   {
-    name: "Products",
+    name: "Savings",
+    href: "/products",
+    icon: ShoppingBag,
+    type: "item",
+  },
+  {
+    name: "Loans",
     href: "/products",
     icon: ShoppingBag,
     type: "item",
@@ -36,7 +42,7 @@ const navigationItems: SidebarItem[] = [
   },
   {
     name: "Regions",
-    href: "/regions",
+    href: "/geographies",
     icon: Locate,
     type: "item",
   },
@@ -61,6 +67,10 @@ const navigationItems: SidebarItem[] = [
     href: "/discounts",
     icon: BadgePercent,
     type: "item",
+  },
+  {
+    type: 'label',
+    name: 'API Playground',
   },
   {
     type: 'label',
