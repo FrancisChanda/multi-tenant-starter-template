@@ -18,7 +18,7 @@ const navigationItems: SidebarItem[] = [
   },
   {
     name: "Members",
-    href: "/people",
+    href: "/members",
     icon: Users,
     type: "item",
   },
@@ -35,12 +35,6 @@ const navigationItems: SidebarItem[] = [
     type: "item",
   },
 
-  {
-    name: "Segments",
-    href: "/segments",
-    icon: Columns3,
-    type: "item",
-  },
   {
     name: "Regions",
     href: "/geographies",
@@ -64,7 +58,7 @@ const navigationItems: SidebarItem[] = [
     type: "item",
   },
   {
-    name: "Discounts",
+    name: "Pricing",
     href: "/discounts",
     icon: BadgePercent,
     type: "item",
