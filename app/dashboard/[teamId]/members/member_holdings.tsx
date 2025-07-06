@@ -18,7 +18,25 @@ export function MemberHoldings() {
             olivia.martin@email.com
           </p>
         </div>
-        <div className="ml-auto font-medium">+$1,999.00</div>
+        <div className="ml-auto font-medium">
+          +$1,999.00
+          <p className="text-sm text-muted-foreground">Savings</p>
+        </div>
+        <div className="ml-auto font-medium">
+          +$1,999.00
+          <p className="text-sm text-muted-foreground">Loans</p>
+        </div>
+
+        <div className="ml-auto font-medium">
+          +$999.00
+          <p className="text-sm text-muted-foreground">Income</p>
+        </div>
+        
+        <div className="ml-auto font-medium">
+          +$99.00
+          <p className="text-sm text-muted-foreground">Shares</p>
+        </div>
+        
       </div>
       <div className="flex items-center">
         <Avatar className="flex h-9 w-9 items-center justify-center space-y-0 border">
