@@ -36,7 +36,7 @@ const navigationItems: SidebarItem[] = [
   },
 
   {
-    name: "Regions",
+    name: "Locations",
     href: "/geographies",
     icon: Locate,
     type: "item",
